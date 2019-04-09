@@ -4,7 +4,7 @@ margin:0;
 }
 
 
-.container {
+.body{
 
     background: #f2f2f2;
     width:1500px;
@@ -12,75 +12,76 @@ margin:0;
     display: inline-line;
 }
 
-div h1 {
-    font-size: 50px;
-    color: blue;
-    font-style: italic;
+
+.titulo {
+    text-align: left; 
+    font-family: Comic Arial, Helvetica, sans-serif;; 
+    font-weight:bold; 
+    font-size: 50px; 
     text-align: center;
-    text-decoration: underline;
-    text-transform: capitalize;
     letter-spacing: 2px;
+    color: #EBD758; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
 
+
+div h1 {
+
+    padding: 4px;
+    margin: 1px 1px 1px 1px;
+  
+    border: 1.5px solid #ffffff;
+}
+
+
+@keyframes colores {
+    from {background:#ff5733; }
+    to {background: #e9967a}
+}
+.container {
+    animation-name: colores;
+    animation-duration: 60s;
+    animation-iteration-count: ;
+   
+    padding: 10px;
+}
+
+
+.galeria {
+
+    background: #f1cbc1
+    border = #f2f2f2;
+}
+
+
+.galeria img {
+    vertical-align: top;
+    width: 185px;
+    height: 150px;
+    border:1px solid#e0f8f5;
     padding: 5px;
-    margin: 2px 2px 3px 3px;
-    border: 2px solid #ffffff;
+
+
 }
 
-   /*   aca existe un div con class premerdiv
-        un parrafo p con class uno
-        una textarea con class entrada rectangulocirc naranja 
-        div contenedor de    p    textarea                       */
-
-.uno {
-    color: #000080;
-}
-
-
-
-.entrada {
-    position: absolute;
-    background: #ADD8E6;
+ img:hover {
     
-    left: 180px;
-    padding: 5px;
-    margin: 3px 3px 3px 3px; 
-    border: 3px solid #ffffff;
-    border-radius: 10px;
-
+    border:1px solid #fff,
+    opacity = 0.8;
+    padding: 25px 35px;
 
 }
 
-entrada:hover {
-    background: #009ddc;
-    padding: 20px 25px;
+.containerdos  {
+    text-align: center;
+    background: url(imagenes/gen.jpg);
+    padding: 20px;
+    
+    border: 3px solid #e9967a;
+    background-color: #e9967a; 
 }
 
-.primerdiv { 
-    position: relative;
-    top: 20px;
-    left: 50px;
-    display: inline-block;
-
-}
-      
-    /*<label class="formlabel" 
-    <textarea class ="number celeste" */ 
-
-.number { 
-
+.parUno {
+    color: #ef358f;
 }
 
-    /*  <label class="btn" 
-   <button  id="descifrar" class="formButton rosa">Descifrar</button>
-   <button  id="cifrar" class="formButton rosa">Cifrar</button>  */
-.formButton {
-
-}        
-        
-    /*    
-    <label class="form-label"
-    <textarea id="salida" class="vistaSalida rectangulocirc gris" */
-
-.vistaSalida {
-
-}
