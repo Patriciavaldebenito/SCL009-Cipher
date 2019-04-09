@@ -1,67 +1,67 @@
+/*selector universal , tamaño body y color fondo*/
 * { 
     padding: 0;
 margin:0;
+box-sizing: border-box;
 }
 
 
-.body{
-
-    background: #f2f2f2;
-    width:1500px;
-    height:1500px;
-    display: inline-line;
+body {
+	
+	background: url(imagenes/gen.jpg);
 }
+/*trabajando con elementos de bloque y linea */
 
 
-.titulo {
-    text-align: left; 
-    font-family: Comic Arial, Helvetica, sans-serif;; 
-    font-weight:bold; 
-    font-size: 50px; 
-    text-align: center;
-    letter-spacing: 2px;
-    color: #EBD758; 
-    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
-}
 
-
-div h1 {
-
-    padding: 4px;
-    margin: 1px 1px 1px 1px;
-  
-    border: 1.5px solid #ffffff;
-}
-
-
+/*iniciando con primer div, aplicando animacion*/
 @keyframes colores {
     from {background:#ff5733; }
     to {background: #e9967a}
 }
 .container {
     animation-name: colores;
-    animation-duration: 60s;
-    animation-iteration-count: ;
-   
-    padding: 10px;
+	animation-duration: 60s;
+	margin: 8px;
 }
 
+/* El primer div contiene una galeria de imagenes  --> img y un titulo --> h1*/ 
+/* utilizacion de vertical - align para ver imagenes en linea horizontal */
 
 .galeria {
-
-    background: #f1cbc1
-    border = #f2f2f2;
+	margin-left: 60px;
+	margin-right:60px;
 }
-
-
 .galeria img {
-    vertical-align: top;
+	vertical-align: top;
     width: 185px;
     height: 150px;
-    border:1px solid#e0f8f5;
-    padding: 5px;
+    border:2px solid#e0f8f5;
+	padding: 5px;
+	
+}
 
+/* h1 - titulo */
 
+.titulo {
+  
+    font-family: Comic Arial, Helvetica, sans-serif;; 
+    font-weight:bold; 
+    font-size: 70px; 
+    text-align: center;
+    letter-spacing: 4px;
+    color: #EBD758; 
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 
+
+}
+ 
+
+/* div contenerdor de titulo*/
+div h1 {
+    padding: 4px;
+    margin: 10px 1px 1px 1px;
+  
+    border: 1.5px solid #ffffff;
 }
 
  img:hover {
@@ -69,19 +69,139 @@ div h1 {
     border:1px solid #fff,
     opacity = 0.8;
     padding: 25px 35px;
-
 }
 
+
+/*en el div - containerdos contiene 
+ -3 parrafos elementos de bloque,
+ -3 textarea elemeto de linea 
+ - y botones elementos de linea*/
 .containerdos  {
-    text-align: center;
-    background: url(imagenes/gen.jpg);
+    
     padding: 20px;
     
-    border: 3px solid #e9967a;
-    background-color: #e9967a; 
+	display: block;
+	margin-left: 100px;
+	margin-right: 100px;
+	position: relative;
 }
 
+/* PARA MOVER LOS ELEMENTOS
+top: 20px:
+	right:
+	bottom: 30px;
+	left:
+*/
+
+
+/*parrafo1 - INGRESA EL MENSAJE*/
 .parUno {
-    color: #ef358f;
+	color: blue;
+	font-size: 25px;
+	display: inline;
+	position: absolute;
+	top: 10px;
+	background: url(imagenes/gen.jpg);
+}
+
+.parUno:hover {
+	color: #D4AC0D;
+	font-size: 28px;
+
+}
+
+/*cajas1 */
+.cajaUno {
+	position: absolute;
+	left: 350px;
+	top:10px;
+	
+}
+.tex:focus {box-shadow: 0 0 5px rgba(230,95,0,1);border:1px solid rgba(230,95,0,0.8);}
+	
+/*parrafo2   DESPLAZAMIENTO*/
+.parDos {
+
+	color: red;
+	font-size: 25px;
+	font-weight: bolder;
+	display: inline;
+	position: absolute;
+	left: 300px;
+	top:120px;
+}
+
+/*cajas2*/
+.cajaDos {
+	position: absolute;
+	left: 500px;
+	top: 120px;
+
+}
+
+/*parrafo3*/
+.parTres {
+
+	color: #6C3483;
+	font-size: 25px;
+	display: inline;
+	position: absolute;;
+	top:230px;
+	left: 50px;
+}
+
+.parTres:hover {
+	color:#C0392B;
+	font-size: 35px;
+
+}
+
+/*cajas3*/
+.cajaTres {
+	position: absolute;
+	top:270px;
+	left: 210px;
+}
+
+
+/*botones*/
+.efect:hover {
+	opacity: 0.8;
+}
+
+
+.btn1 {
+	/*display: inline-block;*/
+	font-size :20px;
+	padding: 10px 15px;
+	background:#DC7633;
+	color: white;
+	text-decoration: none;
+	margin: 1px 1px 1px 1px;
+	border: 2px solid #AEB6BF;
+	display: inline;  
+	border-radius: 100px;
+	position: absolute;
+	top:170px;
+	left: 300px;
+
+
+}
+
+.btn2 {
+	/*display: inline-block;*/
+	
+	font-size :20px;
+	padding: 10px 15px;
+	background:#16A085;
+	color: white;
+	text-decoration: none;
+	margin: 1px 1px 1px 1px;
+	border: 2px solid #AEB6BF;
+	display: inline;  
+	border-radius: 100px;
+	position: absolute;
+	top:170px;
+	left:500px;
 }
 
