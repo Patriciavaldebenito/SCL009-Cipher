@@ -7,40 +7,44 @@
   </head>
   <body>
 
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <div class="container" id="root">
+        <div class="galeria">
+          <img src="imagenes/pruno.jpg">
+          <img src="imagenes/prdos.jpg">
+          <img src="imagenes/prtres.jpg">
+          <img src="imagenes/prcuatr.jpeg">
+          <img src="imagenes/prcinco.jpg">
+          <img src="imagenes/prseis.jpg">
+        </div>
+      <h1 class="titulo">Codigo Cesar</h1>
     </div>
 
+    <div class="containerdos">
+        <div class="primerdiv">
+          <p class="parUno" ><b>INGRESA EL MENSAJE:</b></p>
+          <textarea  class="cajaUno" name="cadena" id="cadena"  rows="6" cols="45"  placeholder="-> --> Escriba su mensaje aquí" required="required"></textarea>     
+        </div>
 
-    <div class="primerdiv">
-      <p class="uno" >INGRESA EL MENSAJE:</p>
-      <textarea  class="entrada rectangulocirc naranja" name="cadena" id="cadena"  rows="10" cols="40"  placeholder="Escriba su mensaje aquí" required="required"></textarea>     
-    </div>
-
-
-      <!--  
-      
     
-      <label class="formlabel" for="set_off" >setOff:</label>
+    
+        <div class="segdiv">
+            <p class="parDos">setOff:</p>
+            <textarea class ="cajaDos" type="number" id="set_off" rows="2" cols="3" required="required"></textarea>
+          </div>
+            
+                
+            
+            <button  id="descifrar" class="Buttond rosa">Descifrar</button>
+            <button  id="cifrar" class="Buttonc rosa">Cifrar</button>
+                
+                
+          <div>
+              <p class="tercerdiv">Tu mensaje ha sido Traducido:</p>
+              <textarea class="cajaTres" id="salida"  rows="8" cols="50"></textarea>  
+          </div>      
+    </div>  
+    
       
-      <textarea class ="number celeste" type="number" id="set_off" class="numero" rows="2" cols="3" required="required"></textarea>
-          
-          
-          
-      <label class="btn" for="formButton" ></label>
-      
-      <button  id="descifrar" class="formButton rosa">Descifrar</button>
-      <button  id="cifrar" class="formButton rosa">Cifrar</button>
-          
-          
-          
-      <label class="form-label"for="salida">Tu mensaje ha sido Traducido:</label>
-      
-      <textarea id="salida" class="vistaSalida rectangulocirc gris" rows="8" cols="50"></textarea>  
-
-      
-        -->
-
   
     <script src="cipher.js"></script>
     <script src="index.js"></script>
