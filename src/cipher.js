@@ -1,8 +1,6 @@
 let mjeTraducido = '';
 let newAsc = "";
 let letter = "";
-
-
  
 window.cipher = {
 

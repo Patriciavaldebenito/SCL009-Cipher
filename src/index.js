@@ -26,5 +26,14 @@ document.getElementById("descifrar").addEventListener("click", (e) =>{
  });
 
 
+ document.getElementById("clear").addEventListener("click", () =>{
+ 
+  document.getElementById("cadena").value = "";
+  document.getElementById("set_off").value = "";
+  document.getElementById("salida").value = "";
+ 
+ 
+});
+
 
 
