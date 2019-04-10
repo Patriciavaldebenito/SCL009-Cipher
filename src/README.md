@@ -76,7 +76,7 @@ Como se observa en la imagen, la aplicación tiene los elementos para que el usu
         ![Imagen flujo según acciones del usuario](imagenes/flujoUsuario.png )
 
 
--   3.   Testeo e Iteración:
+    3.   Testeo e Iteración:
 
 En este punto la aplicación fue iterada una vez construida la estructura en archivo HTML y post haber agregado elementos en archivo CSS.
 
