@@ -8,9 +8,9 @@
 
 **Athy!** 
 
-Consiste en un aplicación tipo servicio dirigido a usuarias mujeres, esta iniciativa esta destinada a grupos en **ayuda, guía y acocmpañamiento** de usuarias con insertidundre, respecto a situación de control o violencia que esten viviendo junto a sus parejas. 
+Consiste en un aplicación tipo servicio dirigido a usuarias mujeres, esta iniciativa esta destinada a grupos en **ayuda, guía y acompañamiento** de usuarias con insertidundre, respecto a situación de control o violencia que esten viviendo junto a sus parejas. 
 
-La aplicación utiliza un cifrado y descifrado, controlado por líderes de grupos de ayuda y usuarias a través de un parametro único númerico. 
+La aplicación utiliza un cifrado y descifrado, controlado por líderes de grupos de ayuda y usuarias a través de un parámetro único númerico. 
 
 Por lo tanto la temática utilizada en el proyecto es **mensajeria secreta**.
 
