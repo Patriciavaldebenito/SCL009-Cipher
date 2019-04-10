@@ -222,3 +222,10 @@ top: 20px:
 	left:850px;
 }
 
+.enlaceUno {
+	display: inline;  
+	
+	position: absolute;
+
+	left:950px;
+}
