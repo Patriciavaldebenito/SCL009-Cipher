@@ -49,6 +49,8 @@ Proceso para definir el producto a nivel de experiencia y de interfaz.
 
 A continuacion una imagen de la aplicacion: 
 
+[![Imagen visualización de aplicación web](src/imagenes/imagenInterfaz.png )]
+
 
 
 
