@@ -49,8 +49,9 @@ Proceso para definir el producto a nivel de experiencia y de interfaz.
 
 A continuacion una imagen de la aplicacion: 
 
-[![Imagen visualización de aplicación web](src/imagenes/imagenInterfaz.png )]
+[![Imagen visualización de aplicación web](imagenes/imagenInterfaz.png )]
 
+Como se observa en la imagen la aplicación tiene los elementos para que el usuario pueda utilizarla con contenedores de texto, y botones visibles para la traducción. 
 
 
 
@@ -63,8 +64,25 @@ A continuacion una imagen de la aplicacion:
 
 Diseño de experiencia de usuario (User Experience Design):
 
-- Ideación
+- Ideación:
+        
+        La idea nace a través de una conversacion con una dirigenta vecinal, quien precisa la nula comunicación que existe entre algunas mujeres que subren de agresión en zona residencial en la cual ella vive.
+
+        Se propone un bosquejo simple con elementos espeficos, que sean faciles de identificar, con pocos procedimientos para los usuarios, de sencilla utilización. 
+
+        Se crea a partir de posibles usuarias un **Flujo Usuario** (Prototipado punto 2), el cual es la base de los eventos necesarios (DOM).
+
 - Prototipado (sketching)
+
+    1. Bosquejo inicial: 
+
+        ![Imagen bosquejo inicial aplicación web](imagenes/bosquejoInit.jpg )
+ 
+    2. Flujo usuario:
+
+        ![Imagen flujo según acciones del usuario](imagenes/flujoUsuario.png )
+
+
 - Testeo e Iteración
 
 
