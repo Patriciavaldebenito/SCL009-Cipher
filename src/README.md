@@ -16,7 +16,7 @@ Por lo tanto la temática utilizada en el proyecto es **mensajeria secreta**.
 
 #### Definición del producto:
 
-Proceso para definir el producto a nivel de experiencia y de interfaz.
+Proceso para definir el producto a nivel de experiencia y de interfaz:
 
 * ¿Quiénes son los **principales usuarios** de producto?
 
