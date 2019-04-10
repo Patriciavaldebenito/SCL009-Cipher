@@ -89,6 +89,6 @@ El proceso de diseño consistió en utilizar elementos determinados en el bosque
 
 ## Post entrega proyecto:
 
-Se estima que a la aplicación sea adherida una tabla para registrar un número especifico de mensajes en una tabla. 
+Se estima que a la aplicación, sea adherida una tabla para registrar un número especifico de mensajes en una tabla. 
 
 
