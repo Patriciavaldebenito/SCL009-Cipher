@@ -21,7 +21,7 @@ body {
 }
 .container {
     animation-name: colores;
-	animation-duration: 60s;
+	animation-duration: 40s;
 	margin: 8px;
 }
 

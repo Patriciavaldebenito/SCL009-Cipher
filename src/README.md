@@ -69,11 +69,11 @@ Como se observa en la imagen, la aplicación tiene los elementos para que el usu
 
     1. Bosquejo inicial: 
 
-        ![Imagen bosquejo inicial aplicación web](imagenes/bosquejoInit.jpg )
+        ![Imagen bosquejo inicial aplicación web](imagenes/bosquejoInit.jpg)
  
     2. Flujo usuario:
 
-        ![Imagen flujo según acciones del usuario](imagenes/flujoUsuario.png )
+        ![Imagen flujo según acciones del usuario](imagenes/flujoUsuario.png)
 
 
 -   3.   Testeo e Iteración:
