@@ -1,6 +1,6 @@
-#PROYECTO CÓDIGO CESAR "Athy!"
+# PROYECTO CÓDIGO CESAR "Athy!"
 
-##Descripcion del proyecto:
+## Descripcion del proyecto:
 
 Athy! Primera aplicación web desarrollada en el proyecto bootcamp. Athy! consiste en un aplicacion tipo servicio dirigido a usuarias mujeres, esta iniciativa esta dirigida a grupos en ayuda y guiamientos de usuarias con insertidundre respecto a situación de control o violencia que esten viviendo junto a sus parejas. 
 
