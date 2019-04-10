@@ -2,19 +2,25 @@
 
 ## Descripcion del proyecto:
 
-Athy! Primera aplicación web desarrollada en el proyecto bootcamp. Athy! consiste en un aplicacion tipo servicio dirigido a usuarias mujeres, esta iniciativa esta dirigida a grupos en ayuda y guiamientos de usuarias con insertidundre respecto a situación de control o violencia que esten viviendo junto a sus parejas. 
+### Athy! 
 
-La aplicacion utiliza un cifrado y descifrado, controlado por lideres de grupos de ayuda y usuarias a través de un parametro único númerico. 
+    Primera aplicación web desarrollada en el proyecto bootcamp. 
 
-Por lo tanto la tematica utilizada en el proyecto es mensajeria secreta.
+**Athy!** 
+
+Consiste en un aplicación tipo servicio dirigido a usuarias mujeres, esta iniciativa esta destinada a grupos en ayuda y guiamientos de usuarias con insertidundre respecto a situación de control o violencia que esten viviendo junto a sus parejas. 
+
+La aplicación utiliza un cifrado y descifrado, controlado por líderes de grupos de ayuda y usuarias a través de un parametro único númerico. 
+
+Por lo tanto la temática utilizada en el proyecto es **mensajeria secreta**.
 
 #### Definición del producto:
 
 Proceso para definir el producto a nivel de experiencia y de interfaz.
 
-* ¿Quiénes son los principales usuarios de producto?
+* ¿Quiénes son los **principales usuarios** de producto?
 
-    Las principales ususarias son mujeres, se desea que la aplicacion sea utilizada por departamentos de carabineros, municipalidades, grupos activas de mujeres que tienen en sus proposito la ayuda, acompañamiento u orientacion a mujeres, ya sean: jovenes, adultas o de edad, que se encuentren en alguna situacion de duda o certeza de ser controladas, violentadas u otro estado evaluado por sus parejas.
+    Las principales ususarias son **mujeres**, se desea que la aplicacion sea utilizada por departamentos de carabineros, municipalidades, **grupos activas de mujeres** que tienen en sus proposito la ayuda, acompañamiento u orientacion a mujeres, ya sean: jovenes, adultas o de edad, que se encuentren en alguna situacion de duda o certeza de ser controladas, violentadas u otro estado evaluado por sus parejas.
 
 
 * ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?
@@ -35,7 +41,7 @@ Proceso para definir el producto a nivel de experiencia y de interfaz.
 
 ### Interfaz de usuario (UI)
 
-La interfaz  permite al usuario:
+**La interfaz  permite al usuario**:
 - Utilizar un  desplazamiento (_offset_) indicando cuántas posiciones en el cifrado se desplaza cada   caracter.
 - Insertar un mensaje (texto) para cifrar o insertar un mensaje (texto) a descifrar.
 - Ver el resultado del mensaje cifrado.
