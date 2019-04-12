@@ -85,10 +85,13 @@ La iteración se realizó cifrado y descrifrado para letras mayusculas y minuscu
 
 ## Proceso y desición de diseño:
 
-El proceso de diseño consistió en utilizar elementos determinados en el bosquejo inicial, considerando simplicidad en la aplicación, visual con colores llamativos e imagenes con efectos. 
+El proceso de diseño consistió en utilizar elementos determinados en el bosquejo inicial, considerando simplicidad en la aplicación, visual con colores llamativos e imágenes con efectos. 
+
+A través de este proceso, se comprende que la aplicación tiene la limitante, de no entregar mucha informacion sobre sus objetivos especificos, ya que, solo va dirijido a las usarias detalladas, y que requiere ser conocida a través de una amiga o que esta algún instructor para su uso ( alguien que explica su uso y propositos). 
+Se decide un diseño femenino, que pueda llamar sobretodo en adolescentes, y que tenga un link en esta fase para mayor información. 
 
 ## Post entrega proyecto:
 
-Se estima que a la aplicación, sea adherida una tabla para registrar un número especifico de mensajes en una tabla. 
+Se estima que a la aplicación, sea adherida una tabla para registrar un número específico de mensajes en un archivo html diferente. 
 
 
